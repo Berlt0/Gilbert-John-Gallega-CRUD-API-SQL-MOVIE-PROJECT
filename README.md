@@ -21,7 +21,7 @@ genre (string, required)
 
 - type http://localhost:5000 in the browser or thunder client
 - Get http://localhost:5000/movies  to RETURN THE LIST OF MOVIES
-- In GETTING MOVIE WWITH SPECIFIC ID , you can do GET http://localhost:5000/movies/3     ( ex. 2)
+- In GETTING MOVIE WWITH SPECIFIC ID , you can do GET http://localhost:5000/movies/3     ( ex. 3)
   and it will show you the movie with the specific id
 - In ADDDING OR CREATING  a movie . use POST     and write the properties for exmple
 
