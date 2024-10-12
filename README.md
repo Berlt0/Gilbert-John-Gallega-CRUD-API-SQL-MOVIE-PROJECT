@@ -15,7 +15,7 @@ genre (string, required)
 2. After going to vscode open terminal and type   npm init -y  to create default package.json
 3. After that type   npm install express mysql2 body-parser   so that you can import express , mysql, and body parser
 4. In starting the server you type to the terminal  node index.js
-5. And after you can see http://localhost:5000 if you write a code ` app.listen(PORT, () => console.log(`Server is running on http://localhost:${PORT}`)`
+5. And after you can see http://localhost:5000 if you write a code ` app.listen(PORT, () => console.log(``Server is running on http://localhost:${PORT}`)`
 
 ## How to know if the code is running 
 
@@ -37,7 +37,7 @@ genre (string, required)
 The id is not included because it is auto generated.
   
 
-- In UPDATING movie with a specific id  , just do PUT  http://localhost:5000/movies/specific_id( ex. 2)
+- In UPDATING movie with a specific id  , just do PUT  `http://localhost:5000/movies/specific_id( ex. 2)`
   and it will return to the movie with a specific id and write the properties you want to change
      Example:
 
@@ -50,7 +50,7 @@ The id is not included because it is auto generated.
   
   
 
- In DELETING movie with a specific id , just go DELETE   http://localhost:5000/movies/specific_id( ex. 2)
+ In DELETING movie with a specific id , just go DELETE   `http://localhost:5000/movies/specific_id( ex. 2)`
  and it will delete the movie with the specified id
 
 
