@@ -25,7 +25,7 @@ genre (string, required)
   and it will show you the movie with the specific id
 - In ADDDING OR CREATING  a movie . use POST http://localhost:5000/movies    and write the properties for exmple
 
-  ...
+  ```javascript
    
    {
      "title": "King Kong ",
@@ -34,24 +34,24 @@ genre (string, required)
      "genre":  "Adventure , Action"
    }
 
-// The id is not included because it is auto generated.
-  ...
+The id is not included because it is auto generated.
+  
 
 - In UPDATING movie with a specific id  , just do PUT  http://localhost:5000/movies/specific_id( ex. 2)
   and it will return to the movie with a specific id and write the properties you want to change
      Example:
 
-  ...
+  ```javascript
 
      "title": "King Kong ", // you want to change it to "The Nun"
      "director": "Peter Jackson",             //   -     "Corin Hardy"
      "year": 2005,                            //   -     "2018"
      "genre":  "Adventure , Action"           //   -     "Horror,Mystery"
   
-  ...
+  
 
-  - In DELETING movie with a specific id , just go DELETE   http://localhost:5000/movies/specific_id( ex. 2)
-    and it will delete the movie with the specified id
+ In DELETING movie with a specific id , just go DELETE   http://localhost:5000/movies/specific_id( ex. 2)
+ and it will delete the movie with the specified id
 
 
   
