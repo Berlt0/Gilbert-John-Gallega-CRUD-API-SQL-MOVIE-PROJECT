@@ -15,7 +15,7 @@ genre (string, required)
 2. After going to vscode open terminal and type   npm init -y  to create default package.json
 3. After that type   npm install express mysql2 body-parser   so that you can import express , mysql, and body parser
 4. In starting the server you type to the terminal  node index.js ( I DIDN'T USE NODEMON SO I TYPE NODE INDEX.JS IN THE TERMINAL FIRST BEFORE MAKING A REQUEST)
-5. And after you can see http://localhost:5000 if you write a code ` app.listen(PORT, () => console.log(``Server is running on http://localhost:${PORT}`)`
+5. And after you can see `http://localhost:5000` if you write a code ` app.listen(PORT, () => console.log(``Server is running on http://localhost:${PORT}`)`
 
 ## How to know if the code is running 
 
