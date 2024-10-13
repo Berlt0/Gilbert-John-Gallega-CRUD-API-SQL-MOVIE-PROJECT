@@ -14,14 +14,14 @@ genre (string, required)
 1. First fo to file manager and create folder and open that folder and right click and open terminal and type code . 
 2. After going to vscode open terminal and type   npm init -y  to create default package.json
 3. After that type   npm install express mysql2 body-parser   so that you can import express , mysql, and body parser
-4. In starting the server you type to the terminal  node index.js
+4. In starting the server you type to the terminal  node index.js ( I DIDN'T USE NODEMON SO I TYPE NODE INDEX.JS IN THE TERMINAL FIRST BEFORE MAKING A REQUEST)
 5. And after you can see http://localhost:5000 if you write a code ` app.listen(PORT, () => console.log(``Server is running on http://localhost:${PORT}`)`
 
 ## How to know if the code is running 
 
-- type http://localhost:5000 in the browser or thunder client
-- Get http://localhost:5000/movies  to RETURN THE LIST OF MOVIES
-- In GETTING MOVIE WWITH SPECIFIC ID , you can do GET http://localhost:5000/movies/3     ( ex. 3)
+- type `http://localhost:5000` in the browser or thunder client
+- Get `http://localhost:5000/movies`  to RETURN THE LIST OF MOVIES
+- In GETTING MOVIE WWITH SPECIFIC ID , you can do GET `http://localhost:5000/movies/3`     ( ex. 3)
   and it will show you the movie with the specific id
 - In ADDDING OR CREATING  a movie . use POST     and write the properties for exmple
 
